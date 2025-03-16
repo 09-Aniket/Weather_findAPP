@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('default.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1, h2, h3, p {
+    margin: 8px 0;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 70%;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Forecast Styling */
+  .forecast {
+    margin-top: 20px;
+  }
+  
+  #hourly-forecast {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .hour {
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .sunny {
+    background: url('sunny.jpg') no-repeat center center/cover;
+  }
+  
+  .rainy {
+    background: url('rainy.jpg') no-repeat center center/cover;
+  }
+  
+  .cloudy {
+    background: url('cloudy.jpg') no-repeat center center/cover;
+  }
+  
+  .snowy {
+    background: url('snowy.jpg') no-repeat center center/cover;
+  }
+  
